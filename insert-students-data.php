@@ -8,10 +8,25 @@ $dob= $_POST['dob'];
 $email= $_POST['email'];
 $department= $_POST['department'];
 
-echo $student_id;
-echo $firstname;
-echo $lastname;
-echo $dob;
-echo $email; 
-echo $department; 
+/*
+if($email == "hackmail.com"){
+
+    echo "You can't be registered";
+}else{
+
+    echo "You can be registered";
+}
+*/
+
+
+
+
+
+
+echo $student_id."<br>";
+echo $firstname."<br>";
+echo $lastname."<br>";
+echo $dob."<br>";
+echo $email."<br>"; 
+echo $department."<br>"; 
 ?>
