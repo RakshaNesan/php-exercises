@@ -10,7 +10,7 @@
 <body>
     <h1 style="text-align:center">Student Registration</h1><hr>
  <div class="container" style="background-color:palevioletred">
-<form>
+<form action="insert-students-data.php" method="post">
   <div class="form-group" style="margin-bottom:20px;">
     <label for="studentid">Student ID</label>
     <input type="text" class="form-control" name="student_id" id="studentid" placeholder="Enter Student ID">
